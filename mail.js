@@ -172,4 +172,26 @@ $('label[for^=file]').each(function() {
   $('input#' + file_id).change(function() {
     $(this).siblings('div[for]').text('Файлы прикреплены.');
   });
-});
+})
+
+
+
+$('*[data-send]').each(function () {
+  var self = $(this)
+
+
+  self.click(function () {
+
+    // alert()
+    // $.ajax({
+    //   method: 'POST',
+    //   url: ''
+    //   contentType: 'application/json',
+    //   data: {"chat": "lxwuf8ufro", "text": "merve"}
+
+    // })
+
+
+  })
+
+})

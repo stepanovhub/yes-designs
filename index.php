@@ -7,8 +7,7 @@
   <meta charset="utf-8" />
   <title>Дизайн белых интерьеров</title>
   <meta content="Дизайн белых интерьеров" property="og:title" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   
   
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
@@ -22,17 +21,7 @@
 
 
 
-  <script>
-    
-document.addEventListener('touchmove', function(event) {
-    event = event.originalEvent || event;
-    if(event.scale > 1) {
-      event.preventDefault();
-    }
-  }, false);
 
-    
-  </script>
 
 
 
@@ -217,7 +206,7 @@ document.addEventListener('touchmove', function(event) {
 
           <div class="box-desc">
             <!-- <img src="images/5b3eedf6c1ba2510e064ebad_blueprint.png" width="64" height="64" class="image-2 _1 w-hidden-tiny" /> -->
-            <div class="text-desc"><b> Дизайнер шоу «Школа ремонта» на ТНТ и «Чудо техники» на НТВ, имеет международное образование, работает со звездами шоу-бизнеса и спорта</b>
+            <div class="text-desc" style="color: #999;"> <strong class="check"></strong>дизайнер шоу «Школа ремонта» на ТНТ и «Чудо техники» на НТВ, имеет международное образование, работает со звездами шоу-бизнеса и спорта
 
               <br/>
             </div>
@@ -430,130 +419,40 @@ document.addEventListener('touchmove', function(event) {
       <div class="box-slider mob w-hidden-main w-hidden-medium">
         <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
           <div class="w-slider-mask">
-
-              <div class="slide-1 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Спальня</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: сделать интерьер для молодого человека в стиле минимализм с интересным освещением.
-                        <br/>Площадь: 20 кв.м.
-                        <br/>Сроки: 1 мес.
-                        <br/>
-                      </p>
+            <div class="slide-1 w-slide">
+              <div class="row w-row">
+                <div class="column-7 w-col w-col-6">
+                </div>
+                <div class="column-5 w-clearfix w-col w-col-6">
+                  <div class="right-fon-slide">
+                    <h1 class="h2-title-slide">Гостиная</h1>
+                    <div class="divider">
                     </div>
+                    <p class="slider-desc">Задача: создать светлое, воздушное пространство в минимализме с интересными архитектурными элементами.
+                      <br/>Площадь: 75 кв.м.
+                      <br/>Сроки: 1 мес.
+                      <br/>
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="slide-2 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Кухня</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: сделать кухню в стиле &quot;современная классика&quot;, организовать зону для завтраков.
-                        <br/>Площадь: 45 кв.м.
-                        <br/>Сроки: 2 мес.</p>
+            </div>
+            <div class="slider-2 w-slide">
+              <div class="row w-row">
+                <div class="column-8 w-col w-col-8">
+                </div>
+                <div class="column-5 w-clearfix w-col w-col-4">
+                  <div class="right-fon-slide">
+                    <h1 class="h2-title-slide">кухня</h1>
+                    <div class="divider">
                     </div>
+                    <p class="slider-desc">Задача: сделать кухню в стиле &quot;современная классика&quot;, организовать зону для завтраков.
+                      <br/>Площадь: 45 кв.м.
+                      <br/>Сроки: 2 мес.</p>
                   </div>
                 </div>
               </div>
-              <div class="slide-3 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Гостиная</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: создать светлое, воздушное пространство в минимализме с интересными архитектурными элементами.
-                        <br/>Площадь: 75 кв.м.
-                        <br/>Сроки: 1 мес.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-4 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Гостиная</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: создать светлое, воздушное пространство в минимализме с интересными архитектурными элементами.
-
-                        <br/>Площадь: 75 кв.м.
-                        <br/>Сроки: 1 мес.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-5 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Гостиная</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: вписать винтажную мебель в классическом стиле в белый интерьер. Мы решили добавить контраста в виде темного покрытия пола.
-
-
-                        <br/>Площадь: 45 кв.м.
-                        <br/>Сроки: 2 мес.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-6 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Детская</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: разработать проект детской для маленькой принцессы. Мы использовали нежные пастельные оттенки, которые оттеняют наш любимый, белый цвет.
-
-
-
-                        <br/>Площадь: 45 кв.м.
-                        <br/>Сроки: 2 мес.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-7 w-slide">
-                <div class="row w-row">
-                  <div class="w-col w-col-8">
-                  </div>
-                  <div class="column-5 w-clearfix w-col w-col-4">
-                    <div class="right-fon-slide">
-                      <h1 class="h2-title-slide">Ванная</h1>
-                      <div class="divider">
-                      </div>
-                      <p class="slider-desc">Задача: разработать дизайн керамики для международного конкурса DesignDebut. Проект вышел в финал.
-
-
-
-                        <br/>Площадь: 45 кв.м.
-                        <br/>Сроки: 2 мес.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            </div>
           </div>
           <div class="left-arrow w-slider-arrow-left">
             <div class="w-icon-slider-left">

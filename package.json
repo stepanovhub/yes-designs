@@ -1,0 +1,18 @@
+{
+  "name": "merve",
+  "version": "0.0.1",
+  "description": "blabla",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "pro": "webpack"
+  },
+  "author": "Avaylon",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
+    "request": "^2.87.0"
+  }
+}
