@@ -712,12 +712,13 @@
   </div>
 
 
+  <div class="main-page2"></div>
 
     <!-- Map -->
     <div id="map_canvas" class="relative" style="height:600px;z-index: 4;"></div>
 
     <!-- Maps Generator -->
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <script>
         window.onload = function() {
             initialize();
