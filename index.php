@@ -715,7 +715,9 @@
   <div class="main-page2"></div>
 
     <!-- Map -->
-    <div id="map_canvas" class="relative" style="height:600px;z-index: 4;"></div>
+    <!-- <div id="map_canvas" class="relative" style="height:600px;z-index: 4;"></div> -->
+
+    <img src="images/map_yd_bl.jpg" style="width: 100%">
 
     <!-- Maps Generator -->
     <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
