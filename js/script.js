@@ -1,3 +1,22 @@
+
+$(function () {
+
+
+  $('#email-form-4').on('send', function () {
+
+    $.ajax({
+      method: 'POST',
+      url: 'https://chatcrm.me/bot/entry/',
+      data: {
+        'text': 'some text',
+        'chat': '257448948'
+      }
+    })
+    return false
+  })
+
+})
+
 /*!
  * Webflow: Front-end site library
  * @license MIT
