@@ -7,8 +7,9 @@ $(function () {
     $.ajax({
       method: 'POST',
       url: 'https://chatcrm.me/bot/entry/',
+      contentType: "application/json",
       data: {
-        'text': 'some text',
+        'text': 'Имя: ' + $('#email-form-4 input#name-4').val()  + ' Номер: ' +  $('#email-form-4 input#phone-4').val()  +  ' E-mail: ' +  $('#email-form-4 input#email-4').val(),
         'chat': '257448948'
       }
     })
