@@ -114,41 +114,39 @@ module.exports = isArray;
  */
 
 
-$(function () {
 
 
 
-  $('#email-form-3').on('send', function () {
+$('#email-form-3').on('send', function () {
 
-    $.ajax({
-      method: 'POST',
-      url: 'https://chatcrm.me/bot/entry/',
-      contentType: "application/json",
-      data: {
-        'text': 'Имя: ' + $('#email-form-3 input#name-3').val()  + ' Номер: ' +  $('#email-form-3 input#phone-3').val()  +  ' E-mail: ' +  $('#email-form-3 input#email-3').val(),
-        'chat': '257448948'
-      }
-    })
-    return false
+  $.ajax({
+    method: 'POST',
+    url: 'https://chatcrm.me/bot/entry/',
+    contentType: "application/json",
+    data: {
+      'text': 'Имя: ' + $('#email-form-3 input#name-3').val()  + ' Номер: ' +  $('#email-form-3 input#phone-3').val()  +  ' E-mail: ' +  $('#email-form-3 input#email-3').val(),
+      'chat': '257448948'
+    }
   })
-
-
-
-  $('#email-form-4').on('send', function () {
-
-    $.ajax({
-      method: 'POST',
-      url: 'https://chatcrm.me/bot/entry/',
-      contentType: "application/json",
-      data: {
-        'text': 'Имя: ' + $('#email-form-4 input#name-4').val()  + ' Номер: ' +  $('#email-form-4 input#phone-4').val()  +  ' E-mail: ' +  $('#email-form-4 input#email-4').val(),
-        'chat': '257448948'
-      }
-    })
-    return false
-  })
-
+  return false
 })
+
+
+
+$('#email-form-4').on('send', function () {
+
+  $.ajax({
+    method: 'POST',
+    url: 'https://chatcrm.me/bot/entry/',
+    contentType: "application/json",
+    data: {
+      'text': 'Имя: ' + $('#email-form-4 input#name-4').val()  + ' Номер: ' +  $('#email-form-4 input#phone-4').val()  +  ' E-mail: ' +  $('#email-form-4 input#email-4').val(),
+      'chat': '257448948'
+    }
+  })
+  return false
+})
+
 
 
 
