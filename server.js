@@ -41,6 +41,14 @@ const path = require('path')
 const express = require('express')
 const exphbs = require('express-handlebars')
 const app = express()
+
+
+const request = require('request');
+
+
+
+
+
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',
     extname: '.hbs',
@@ -54,11 +62,13 @@ app.use(express.static('public'));
 
 
 app.post('/mail', (request, response) => {
-	console.log('req')
-	console.log(request)
-	console.log('res')
-	console.log(response)
-	// var req = http.request(options, callback);
+
+    request('https://chatcrm.me/bot/entry', { json: true }, (err, res, body) => {
+      if (err) { return console.log(err); }
+      console.log(body.url);
+      console.log(body.explanation);
+    });
+
 
 })
 app.get('/', (request, response) => {
